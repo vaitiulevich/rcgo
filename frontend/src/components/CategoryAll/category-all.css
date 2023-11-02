@@ -1,0 +1,34 @@
+.category-all{
+    width: 28%;
+    /* font-size: 12px; */
+    cursor: pointer;
+    margin: 0px 2% 5px 0px;
+}
+.category-all a{
+    font-size: 14px;
+    display: block;
+    color: #4e4d4d;
+    padding: 10px 0px;
+    border-bottom: 1px dotted;
+}
+.category-all a:hover{
+    border-bottom: 1px dotted #049dda;
+    color: #049dda;
+}
+.subcat{
+    margin: 10px 0px;
+    display: block;
+
+}
+.subcat:hover{
+    color: #F48000;
+}
+.menu-mobile{display: none;}
+@media (max-width:500px) {
+.menu-mobile{display: block;}
+.menu-desctop{display: none;}
+.category-all{
+    width: 100%;
+    /* background-color: #F48000; */
+}
+}

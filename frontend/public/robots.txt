@@ -1,0 +1,7 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow: /admin
+Disallow: /api
+Disallow: /django_static
+
+Sitemap: https://rcgo.by/sitemap.xml

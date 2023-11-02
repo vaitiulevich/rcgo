@@ -1,0 +1,11 @@
+.static h3{
+    text-align: center;
+    color: #F48000;
+}
+.static h2{
+    font-size: 36px;
+}
+.static span{
+    font-size: 14px;
+    font-weight: 600;
+}

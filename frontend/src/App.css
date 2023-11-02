@@ -1,0 +1,47 @@
+.container{
+  margin: 0px 12%;
+  padding: 10px 20px;
+  background-color: white;
+}
+  .home{
+    min-height: 500px;
+  }
+/* .animate-background{
+  position: fixed;
+  z-index: -2;
+  top: 30px;
+  left: -15%;
+  height: 600px;
+  width: 600px;
+  border-radius: 50%;
+  background: url(./assets/icons/span.vertical-menu-ico-6.png) no-repeat;
+  background-position: center bottom;
+  animation: drift 15s linear infinite;
+} */
+  /* @keyframes drift {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  } */
+
+  @media (max-width:1050px) {
+    .container{
+      margin: 0px 6%;
+    }
+  }
+  @media (max-width:650px) {
+    .container{
+      margin: 0px 1%;
+    }
+  }
+  @media (max-width:500px) {
+    .container{
+      margin: 0px 0%;
+    }
+    .home{
+      flex-direction: column;
+    }
+  }

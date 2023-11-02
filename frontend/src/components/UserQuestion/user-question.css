@@ -1,0 +1,13 @@
+.user-question{
+    width: 18%;
+    transform: rotate(-90deg);
+    position: fixed;
+    left: -8.5%;
+    height: 22px;
+    padding: 10px;
+    background-color: #0097EC;
+    color: white;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+    cursor: pointer;
+}

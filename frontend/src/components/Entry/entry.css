@@ -1,0 +1,8 @@
+.entry{
+    position: absolute;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid gray;
+    top: 129px;
+    right: 8%;
+}

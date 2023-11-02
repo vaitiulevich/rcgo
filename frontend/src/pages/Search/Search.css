@@ -1,0 +1,9 @@
+.prod-quantity{
+    display: flex;
+    justify-content: space-around;
+    width: 12%;
+    border: 1px solid gray;
+    padding: 5px 0px;
+    font-size: 20px;
+    cursor: pointer;
+}

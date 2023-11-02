@@ -1,0 +1,88 @@
+.cart{
+    width: 95%;
+}
+.cart th{
+    text-align: left;
+    font-weight: 300;
+    background-color: #F48000;
+    color: white;
+}
+.handler-table{
+    background-color: #F48000;
+}
+table img{
+    height: 100px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+textarea{
+    display: block;
+    width: 100%;
+    min-height: 80px;
+    outline: none;
+}
+label{
+    font-size: 13px;
+}
+.cart .prod-quantity{
+    width: 100%;
+}
+.cart .inp{
+    padding: 8px 10px;
+    margin: 10px 0px;
+    width: 90%;
+    font-size: 15px;
+    border: none;
+    border-bottom: 1px solid gray;
+    outline: none;
+    display: block;
+}
+.err{
+    font-size: 12px;
+    color: rgb(242, 85, 85);
+}
+
+.cart button{
+    padding: 10px 20px;
+    background-color: #F48000;
+    border: none;
+    outline: none;
+    color: white;
+    margin: 10px 0px;
+}
+fieldset{
+    width: 30%;
+    font-size: 14px;
+}
+.data{
+    width: 40%;
+    padding: 0px 20px;
+}
+.all-data{
+    display: flex
+}
+.quantity-td{
+    width: 10%;
+}
+.price-td{
+    width: 15%;
+    text-align: center;
+}
+.delete{
+    color: #FF9800;
+    font-weight: 600;
+    cursor: pointer;
+}
+@media (max-width:800px) {
+    .all-data {
+        display: flex;
+        flex-direction: column;
+    }
+    .data {
+        width: 100%;
+        margin: 10px;
+        padding: 0;
+    }
+}

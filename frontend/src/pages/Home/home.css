@@ -1,0 +1,80 @@
+.home{
+    min-height: 500px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.btn-add-cart{
+    height: 35px;
+    background-color: #a4a3a3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    cursor: pointer;
+}
+.btn-add-cart:hover{
+    background-color: #F48000;
+}
+.product-price{
+    font-size: 17px;
+    color: #F48000;
+    font-weight: 600;
+}
+.product-title{
+    font-size: 14px;
+    margin: 0;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 1px solid #8080802e;
+}
+.prod-option{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px 9px;
+}
+
+.home-page{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.home-page img{
+    width: 99%;
+}
+.home-page .slider-control-bottomcenter{
+    pointer-events: auto;
+    position: relative;
+    bottom: -45px;
+}
+.active button{
+    /* fill: #c2861d; */
+    background-color: #F48000;
+    /* height: 10px; */
+    /* width: 10px; */
+    fill: #F48000 !important
+}
+/* .paging-item button{
+    display: none
+} */
+.paging-item button{
+    /* background-color: #b7ab9f; */
+    padding: 10px !important
+    /* height: 10px; */
+    /* width: 10px; */
+    /* margin: 10px; */
+}
+.carousel-home{
+    margin-bottom: 25px;
+}
